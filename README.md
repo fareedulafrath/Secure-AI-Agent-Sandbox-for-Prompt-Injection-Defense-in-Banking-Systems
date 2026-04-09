@@ -77,7 +77,7 @@ FinTrust/
 │   │   │   ├── threatDetector.js  # Regex pattern matching engine
 │   │   │   ├── riskScorer.js      # Risk score calculator
 │   │   │   ├── decisionEngine.js  # ALLOW/WARN/BLOCK decision maker
-│   │   │   └── sandboxPipeline.js # Pipeline orchestrator
+│   │   │   └── sandboxPipeline.js 
 │   │   └── store/
 │   │       └── threatStore.jsx    # React Context global state
 │   ├── pages/
