@@ -1,6 +1,6 @@
 # 🛡️ FinTrust — AI Security Sandbox for Banking Systems
 
-> **A full-stack AI security platform that demonstrates real-time prompt injection detection, risk scoring, and threat mitigation for banking-domain LLM applications.**
+> **A full-stack AI security platform that demonstrates real-time prompt injection detection, risk scoring and threat mitigation for banking-domain LLM applications.**
 
 FinTrust is an interactive security sandbox that showcases how AI-powered banking assistants can be both attacked and defended against prompt injection techniques. It features a **dual-mode architecture** — a **protected mode** with a multi-stage security pipeline and a **vulnerable mode** that simulates an unprotected AI — allowing side-by-side comparison of how security layers impact LLM behavior.
 
@@ -61,7 +61,7 @@ FinTrust is an interactive security sandbox that showcases how AI-powered bankin
 ```
 FinTrust/
 ├── api/
-│   └── chat.js                    # Vercel serverless API endpoint
+│   └── chat.js                    
 ├── src/
 │   ├── components/
 │   │   ├── ThreatDetectionCard.jsx # Structured threat alert card + Risk Meter
@@ -69,9 +69,9 @@ FinTrust/
 │   │       ├── Layout.jsx          # App shell with sidebar
 │   │       └── Sidebar.jsx         # Navigation sidebar
 │   ├── lib/
-│   │   ├── Agent.js               # Gemini API client
-│   │   ├── llm.js                 # Groq dual-mode LLM client
-│   │   ├── supabase.js            # Supabase client init
+│   │   ├── Agent.js              
+│   │   ├── llm.js                 
+│   │   ├── supabase.js           
 │   │   ├── supabaseService.js     # Data persistence service
 │   │   ├── security/
 │   │   │   ├── threatDetector.js  # Regex pattern matching engine
@@ -86,7 +86,7 @@ FinTrust/
 │   │   ├── AnalyticsPage.jsx      # Threat analytics dashboard
 │   │   ├── AuditLogsPage.jsx      # Audit log viewer
 │   │   └── AdminPage.jsx          # Admin control panel
-│   ├── App.jsx                    # Routes & providers
+│   ├── App.jsx                   
 │   ├── main.jsx                   # Entry point
 │   └── index.css                  # Global styles
 ├── supabase/
@@ -102,9 +102,8 @@ FinTrust/
 ### Prerequisites
 - **Node.js** ≥ 18
 - **npm** ≥ 9
-- **Groq API Key** — [Get one free at console.groq.com](https://console.groq.com)
-- **Supabase Project** — [Create at supabase.com](https://supabase.com) (optional, works without it)
-
+- **Groq API Key** — 
+- **Supabase Project** —
 ### Installation
 
 ```bash
