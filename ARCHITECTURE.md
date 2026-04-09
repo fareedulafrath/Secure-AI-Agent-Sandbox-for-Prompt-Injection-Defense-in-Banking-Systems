@@ -190,7 +190,7 @@ FinTrust supports two LLM backends and two behavioral modes.
 User Message + File → Security Pipeline → [ALLOW?] → Protected System Prompt → Groq API
 ```
 
-- System prompt enforces banking-domain restriction, zero-trust, and output rules
+- System prompt enforces banking-domain restriction, zero-trust and output rules
 - Flagged queries receive additional safety context before reaching the LLM
 - Blocked queries never reach the LLM — a safe response is returned directly
 
